@@ -1,5 +1,14 @@
+# Ignoruj lokálne virtuálne prostredie
 venv/
+
+# Ignoruj cache súbory Pythonu
 __pycache__/
 *.pyc
+
+# Ignoruj súbor s lokálnymi tajomstvami
 .streamlit/secrets.toml
+
+# Ignoruj systémové súbory macOS
+.DS_Store
+
 
